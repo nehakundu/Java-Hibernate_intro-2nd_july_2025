@@ -1,7 +1,5 @@
 package org.example;
 
-//package com.example;
-
 import org.example.entity.Student;
 import org.example.util.HibernateUtil;
 import org.hibernate.Session;
