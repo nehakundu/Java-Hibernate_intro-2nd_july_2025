@@ -1,7 +1,5 @@
 package org.example.entity;
 
-//package com.example.entity;
-
 import jakarta.persistence.*;
 
 @Entity
@@ -21,7 +19,13 @@ public class Student {
         this.name = name;
     }
 
-    public int getId() { return id; }
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+    public int getId() { 
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
 }
